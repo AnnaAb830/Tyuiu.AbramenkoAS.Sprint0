@@ -10,13 +10,7 @@ namespace Tyuiu.AbramenkoAS.Sprint0.Task0.V0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
-            string name = "Анна";
-            int age = 18;
-
-            Console.WriteLine("Здравствуйте меня зовут " + name + " мне " + age + " лет.");
-            Console.ReadKey();
+            
         }
     }
 }
