@@ -1,0 +1,32 @@
+﻿using Tyuiu.AbramenkoAS.Sprint0.Task4.V0.Lib;
+
+namespace Tyuiu.AbramenkoAS.Sprint0.Task4.V0.Test
+{
+    [TestClass]
+    public sealed class DataServiceTest
+    {
+        [TestMethod]
+        public void ChekedAdditionValid()
+        {
+            Assert.AreEqual(10, DataService.Addition(5, 5));
+        }
+
+        [TestMethod]
+        public void ChekedSubtractionValid()
+        {
+            Assert.AreEqual(5, DataService.Subtraction(10, 5));
+        }
+
+        [TestMethod]
+        public void ChekedMultiplicationValid()
+        {
+            Assert.AreEqual(50, DataService.Multiplication(10, 5));
+        }
+
+        [TestMethod]
+        public void ChekedDivisionValid()
+        {
+            Assert.AreEqual(3, DataService.Division(9, 3));
+        }
+    }
+}
